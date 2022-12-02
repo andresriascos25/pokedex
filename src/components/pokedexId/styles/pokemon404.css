@@ -1,0 +1,26 @@
+.card-error {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.card-error__img {
+  width: 100px;
+}
+.card-error__text {
+  font-size: 40px;
+  font-weight: 900;
+  padding: 30px;
+  text-align: center;
+}
+.card-error__link {
+  border-color: gray;
+  border-width: 0.1px;
+  border-style: solid;
+  padding: 10px;
+  border-radius: 30px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15);
+}
